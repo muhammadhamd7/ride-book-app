@@ -15,7 +15,7 @@ import authRoute from "./src/routes/authroute.mjs"
 app.use(express.json())
 app.use(cookieParser());
 app.use(cors({
-    origin: ['http://localhost:3000', "https://muhammadhamd.up.railway.app", "*","https://geocode.maps.co/"],
+    origin: ['http://localhost:3000', "https://ride-book-app.up.railway.app", "*","https://geocode.maps.co/"],
     credentials: true
 }));
 
